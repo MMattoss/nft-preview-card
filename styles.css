@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: hsl(217, 54%, 11%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	flex-direction: column;
+	font-family: 'Outfit', sans-serif;
+}
+
+hr{
+	border: 1px solid hsl(215, 32%, 27%);
+	width: 100%;
+}
+
+h1{
+	font-size: 18px;
+	font-weight: 400;
+}
+
+p{
+	font-size: 15px;
+	font-weight: 200;
+	color: hsl(215, 51%, 70%);
+	line-height: 1.5;
+}
+
+.equilibrium{
+	width: 100%;
+	border-radius: 2%;
+}
+
+.view-icon{
+	display: none;
+}
+
+.card{
+	display: flex;
+	flex-direction: inherit;
+	align-items: start;
+	background-color: hsl(216, 50%, 16%);
+	max-width: 300px;
+	height: 500px;
+	padding: 1rem;
+	border-radius: 4%;
+	color: #FFF;
+	row-gap: 15px;
+	box-shadow: -10px 20px hsl(216, 50%, 10%), 10px 20px hsl(216, 50%, 10%);
+}
+
+.container{
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: start;
+	font-size: 12px;
+}
+
+.eth{
+	color: hsl(178, 100%, 50%);
+}
+
+.eth-container, .time-container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.eth-container span, .time-container span{
+	margin-left: 5px;
+}
+
+.time-container{
+	color: hsl(215, 51%, 70%);
+
+}
+
+.footer{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.profile-pic{
+	border: 1px solid white;
+	border-radius: 50%;
+	width: 10%;
+	margin-right: 15px;
+}
+
+.name{
+	color: #FFF;
+/*	font-weight: 400;*/
+}
